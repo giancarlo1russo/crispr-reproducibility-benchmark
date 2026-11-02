@@ -1,14 +1,17 @@
 ## Benchmarking CRISPR Screen Reproducibility Across Literature Repositories and DepMap
 
-This repository contains the R workflows and analysis pipeline for:
-Manuscript: A Systematic Multi-Repository Assessment of Reproducibility in Cancer CRISPR Knockout 
-Screens
-Authors: G.Gumbis, G.Russo
-Journal: [IMJS / Accepted]
-Corresponding author: [giancarlo.russo@gmc.vu.lt]
+### This repository contains the R workflows and analysis pipeline for:  
+
+**Manuscript:** A Systematic Multi-Repository Assessment of Reproducibility in Cancer CRISPR Knockout 
+Screens. 
+**Authors:** G.Gumbis, G.Russo.   
+**Journal:** [IJMS / Accepted].  
+**Corresponding author:** [giancarlo.russo@gmc.vu.lt]
+
 
 ### Structure of the repository
-.
+
+```.
 ├── .gitignore
 ├── LICENSE.txt
 ├── README.md
@@ -60,8 +63,9 @@ Corresponding author: [giancarlo.russo@gmc.vu.lt]
         ├── data_prep_inputs2_generic_functions.R
         ├── listOfFunctions.R
         └── load_libraries.R
-
+```
 ### Data Sources & Acquisition
+
 This pipeline operates directly from primary raw datasets hosted by the 
 respective portals. No manual preprocessing is required. Details on the sources of  data in 
 data/README.md.
@@ -113,6 +117,7 @@ library(vegan)
 3. R/prep_scripts/data_prep_inputs2_execution.R
 
 #### The main script is: 
+
 1. R/exec_scripts/run_all.R 
 
-### All figures are in folder ./figures
+#### All figures are in folder ./figures
