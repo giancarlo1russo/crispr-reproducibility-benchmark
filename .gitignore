@@ -1,0 +1,17 @@
+# Data and downloads
+data/
+*.csv
+*.tsv
+*.txt
+*.tar.gz
+*.zip
+*.rds
+
+# R history and workspace
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS files
+.DS_Store
